@@ -4,8 +4,8 @@ import os
 from langchain_groq import ChatGroq
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain.chains.retrieval_qa.base import RetrievalQA
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain.chains import RetrievalQA
 from langchain_community.document_loaders import PyPDFLoader, TextLoader
 
 # 세션 상태 초기화
@@ -212,4 +212,5 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
