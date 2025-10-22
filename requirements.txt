@@ -2,5 +2,7 @@ streamlit
 langchain
 langchain-community
 langchain-groq
+chromadb
 sentence-transformers
 pypdf
+faiss-cpu
